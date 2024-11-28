@@ -24,6 +24,38 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.header{
+	background-color: white;
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+.body{
+	background-color: white;
+	width: 100vw;
+	height: 82.5vh;
+}
+
+.footer{
+	background-color: black;
+	width: 100vw;
+	height: 7.5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-text{
+	color: white;
+	font-size: 1vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 body {
 	line-height: 1.41;
     font-family: "Exo 2", serif;
@@ -32,6 +64,47 @@ body {
     font-style: normal;
     font-size: 50px;
 }
+
+.center{
+	background-color: white;
+	display: flex;
+	border: 3px solid black;
+	width: 98vw;
+	height: 80vh;
+	margin-left: .75vw;
+}
+
+.center-left{
+	background-color: white;
+	width: 30vw;
+	height: 80vh;
+}
+.center-right{
+	background-color: white;
+	width: 70vw;
+	height: 80vh;
+	border-left: 3px solid black;
+}
+
+.button{
+	background-color: white;
+	width: 10vw;
+	height: 5vh;
+	border-radius: 2.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 2vw;
+	border: 1px solid black;
+	font-family: "Exo 2", serif;
+	font-size: 1.25vw;
+}
+
+.button:hover{
+	font-size: 1.5vw;
+	cursor: pointer;
+}
+
 ol, ul {
 	list-style: none;
 }
